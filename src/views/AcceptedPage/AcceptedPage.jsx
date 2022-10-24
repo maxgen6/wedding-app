@@ -42,7 +42,7 @@ const AcceptedPage = () => {
   const sendData = async (value) => {
     setShowLoader(true);
     try {
-      await axios.post(`https://cors-anywhere.herokuapp.com/${baseURL}/send`,
+      await axios.post(`${baseURL}/send`,
         value, {
           headers: {
             'Access-Control-Allow-Origin': '*',
