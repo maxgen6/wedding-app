@@ -15,7 +15,7 @@ const LoginPage = () => {
 
   const onFinish = (value) => {
     setIsError(false);
-    const hasData = userData.find(item => item.number === value.phone)
+    const hasData = userData.find(item => item.number === value.phone.trim())
     if (hasData) {
       setToken('user_token');
       setUserInfo(hasData);
