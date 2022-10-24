@@ -50,7 +50,7 @@ const LoginPage = () => {
 
       <Form onFinish={onFinish}>
         <Form.Item
-          label="Введите ваш мобильный номер в формате +375..."
+          label="Введите ваш мобильный номер в формате +375333212132"
           name="phone"
           rules={[{ required: true, message: 'Пожалуйста введите ваш мобильный номер!' }]}
         >

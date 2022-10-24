@@ -28,7 +28,7 @@ const Invited = () => {
       <p className='invited__text'>До свадьбы осталось</p>
 
       <Timer />
-      <p className='invited__text'>Подтвердите пожалуйста присутствие?</p>
+      <p className='invited__text'>Подтвердите пожалуйста присутствие</p>
       <span className='redirect__button' onClick={redirectToAcceptPage}>Подтвердить</span>
     </div>
   )
