@@ -22,12 +22,12 @@ const CeremonyPage = () => {
           <li>
             <p>2. ВЕНЧАНИЕ</p>
             <span>04.11.2022 14:00</span>
-            <span className={'small'}>г.п. Зельва, Троецкая Церковь</span>
+            <span className={'small'}>г.п. Зельва, Свято-Троицкая Церковь</span>
           </li>
           <li>
             <p>3. РЕСТОРАН</p>
             <span>04.11.2022 17:00</span>
-            <span className={'small'}>г.п. Зельва, улица Шосейная 29</span>
+            <span className={'small'}>г.п. Зельва, улица Шоссейная 29</span>
           </li>
         </ul>
       </div>
