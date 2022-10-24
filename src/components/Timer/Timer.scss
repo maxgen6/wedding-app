@@ -7,16 +7,12 @@
   align-items: center;
   width: 100%;
 
-  @include _768 {
-    justify-content: normal;
-  }
-
   &__wrapper {
     border: 1px solid white;
     padding: 60px;
 
     @include _768 {
-      padding: 20px;
+      padding: 15px;
     }
 
     p {
