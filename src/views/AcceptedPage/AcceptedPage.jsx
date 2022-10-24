@@ -46,7 +46,6 @@ const AcceptedPage = () => {
         value, {
           headers: {
             'Access-Control-Allow-Origin': '*',
-            'Content-Type': 'application/json',
           },
         });
     } catch (e) {
