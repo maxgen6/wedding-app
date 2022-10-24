@@ -8,10 +8,14 @@ const Message = ({ text, type }) => {
       return (
         <div className="error">{text}</div>
       )
+
     case 'success':
       return (
         <div className="success">{text}</div>
       )
+
+    default:
+      return <div>{text}</div>
   }
 };
 
