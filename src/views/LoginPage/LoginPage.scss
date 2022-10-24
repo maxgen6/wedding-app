@@ -1,0 +1,70 @@
+@import "../../assets/scss/variables";
+
+.login {
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
+
+  p {
+    text-align: center;
+    color: white;
+  }
+
+  form {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .ant-form-item-explain-error {
+    margin: 5px 0;
+    color: #ba2525;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px 15px;
+
+    @include _992 {
+      max-width: 300px;
+    }
+  }
+
+  .ant-form-item-label {
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+
+  .ant-form-item-explain {
+    position: absolute;
+  }
+
+  .submit__button {
+    display: block;
+    width: 100%;
+    margin: 50px auto 0;
+    max-width: 300px;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: .3s all;
+
+    &:hover {
+      background: #cccccc;
+    }
+  }
+
+}

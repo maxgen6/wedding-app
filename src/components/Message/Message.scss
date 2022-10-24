@@ -1,0 +1,17 @@
+.error {
+  position: absolute;
+  padding: 10px;
+  color: darkred;
+  border: 1px solid #f54b4b;
+  background: #f54b4b;
+  top: 20px;
+}
+
+.success {
+  position: absolute;
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #2348bd;
+  background: #2348bd;
+  top: 20px;
+}

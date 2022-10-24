@@ -1,0 +1,32 @@
+@import "../../assets/scss/variables";
+
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  @include _768 {
+    justify-content: normal;
+  }
+
+  &__wrapper {
+    border: 1px solid white;
+    padding: 60px;
+
+    @include _768 {
+      padding: 20px;
+    }
+
+    p {
+      color: white;
+      text-align: center;
+      font-size: 22px;
+
+      @include _768 {
+        font-size: 14px;
+      }
+    }
+  }
+}
