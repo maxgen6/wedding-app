@@ -4,7 +4,7 @@ export const userData = [
     family: 'Генюш'
   },
   {
-    number: '+375336409556',
+    number: '+375336571829',
     family: 'Навощик'
   },
   {
