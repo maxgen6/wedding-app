@@ -127,4 +127,8 @@ export const userData = [
     number: '+375293517994',
     family: 'Роговских'
   },
+  {
+    number: '+375298807173',
+    family: 'Василий Александрович'
+  },
 ]
